@@ -2,6 +2,7 @@
 # The RWKV v2-RNN Language Model - https://github.com/BlinkDL/RWKV-LM
 ########################################################################################################
 
+import importlib.abc
 from torch.utils.cpp_extension import load
 import math
 import numpy as np
